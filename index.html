@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIFONIA</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Hiragino Mincho ProN', serif; background: #f5f0eb; color: #2d2d2d; }
+header { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+header h1 { font-size: 1.4rem; letter-spacing: 0.3em; }
+nav a { margin-left: 30px; text-decoration: none; color: #2d2d2d; font-size: 1rem; }
+.hero { text-align: center; padding: 80px 20px; }
+.hero h2 { font-size: 3rem; line-height: 1.6; color: #3a5a40; margin-bottom: 20px; }
+.hero p { font-size: 1.2rem; line-height: 2; margin-bottom: 40px; }
+.btn { background: #6b8f6b; color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-size: 1.1rem; }
+.calendar-section { text-align: center; padding: 60px 20px; }
+.calendar-section h2 { font-size: 2rem; margin-bottom: 10px; color: #3a5a40; }
+.contact { background: #ede8e0; text-align: center; padding: 60px 20px; margin-top: 40px; }
+.contact h2 { font-size: 2rem; margin-bottom: 20px; color: #3a5a40; }
+.contact-buttons { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+.contact-btn { background: white; padding: 16px 30px; border-radius: 10px; text-decoration: none; color: #2d2d2d; font-size: 1.1rem; }
+footer { text-align: center; padding: 30px; letter-spacing: 0.3em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>LIFONIA<br><small style="font-size:0.6em;letter-spacing:0.2em">WELLNESS</small></h1>
+  <nav>
+    <a href="#">ホーム</a>
+    <a href="#">サービス</a>
+    <a href="#calendar">予約</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>體（からだ）を整えて、<br>毎日を軽やかに。</h2>
+  <p>肩こり・疲れ・體の重さ。<br>無理を重ねた體を、やさしく整えます。</p>
+  <a href="#calendar" class="btn">空き状況を確認する</a>
+</section>
+
+<section class="calendar-section" id="calendar">
+  <h2>ご予約の空き状況</h2>
+  <p>ご希望の日程をお選びください</p>
+  <div id="calendar-container" style="margin-top:30px;font-size:1.1rem">
+    カレンダーを読み込み中...
+  </div>
+</section>
+
+<section class="contact">
+  <h2>お問い合わせ</h2>
+  <p>ご不明な点がございましたら、お気軽にご連絡ください</p>
+  <div class="contact-buttons" style="margin-top:20px">
+    <a href="tel:090-5400-1827" class="contact-btn">📞 090-5400-1827</a>
+    <a href="mailto:twinkle2.orihime@gmail.com" class="contact-btn">✉️ twinkle2.orihime@gmail.com</a>
+  </div>
+  <p>受付時間：月〜土 10:00〜18:00（日曜定休）</p>
+</section>
+
+<footer>LIFONIA</footer>
+</body>
+</html>
